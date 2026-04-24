@@ -4,7 +4,7 @@ import { Rocket, ShieldAlert, Target, Activity } from 'lucide-react';
 import StatsOverview from './components/StatsOverview';
 import Dashboard from './components/Dashboard';
 
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = '/api';
 
 function App() {
   const [asteroids, setAsteroids] = useState([]);
